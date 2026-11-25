@@ -236,6 +236,24 @@
     .task-content > :first-child { margin-top: 0; }
     .task-content > :last-child { margin-bottom: 0; }
     .route { color: #284d45; font-weight: 650; }
+    .lab-screenshot { margin: 1.15rem 0 0; }
+    .lab-screenshot a {
+      display: block;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      overflow: hidden;
+    }
+    .lab-screenshot a:hover { border-color: var(--accent); }
+    .lab-screenshot img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .lab-screenshot figcaption {
+      margin-top: .45rem;
+      color: var(--muted);
+      font-size: .85rem;
+    }
     .prompt-panel {
       margin: 1rem 0;
       border: 1px solid #bad2c7;
@@ -397,6 +415,12 @@
               <li>Follow <span class="route">Navigator → My Team → Team Activity Center</span>.</li>
               <li>On the team page, find the <strong>Employment Lifecycle Policy Advisor</strong> card and select <strong>Ask Oracle</strong>.</li>
             </ol>
+            <figure class="lab-screenshot">
+              <a href="policy-advisor-full-page.jpg" target="_blank" rel="noopener" aria-describedby="advisor-screenshot-caption">
+                <img src="policy-advisor-full-page.jpg" width="1905" height="848" loading="lazy" alt="Team Activity Center with the Employment Lifecycle Policy Advisor card and Ask Oracle button">
+              </a>
+              <figcaption id="advisor-screenshot-caption">Team Activity Center. Select the image to open it full size in a new tab.</figcaption>
+            </figure>
           </div>
         </details>
         <details class="task" id="ask-policy">
@@ -443,6 +467,12 @@
               <li>Select <strong>Create Journey</strong> and choose <strong>AI Assist</strong> as the creation method.</li>
               <li>In <strong>Category</strong>, select <strong>On Boarding</strong>.</li>
             </ol>
+            <figure class="lab-screenshot">
+              <a href="journeys-ai-assist-full-page.jpg" target="_blank" rel="noopener" aria-describedby="journeys-screenshot-caption">
+                <img src="journeys-ai-assist-full-page.jpg" width="1920" height="855" loading="lazy" alt="Journeys Explore with Create Journey open, AI Assist selected, and On Boarding in the Category field">
+              </a>
+              <figcaption id="journeys-screenshot-caption">Create Journey with AI Assist selected. Select the image to open it full size in a new tab.</figcaption>
+            </figure>
           </div>
         </details>
         <details class="task" id="generate-tasks">
